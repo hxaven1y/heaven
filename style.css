@@ -410,3 +410,17 @@ a {
         display: none; 
     }
 }
+
+
+
+.sidebar-navi ul li a:active {
+    /* Mueve el botón ligeramente hacia abajo y derecha para dar sensación de "push" */
+    transform: translate(2px, 2px); 
+    /* Reduce la sombra para que parezca que se hunde */
+    box-shadow: 0 0 0 1px var(--color-verde-borde-claro); 
+    /* Cambia el color sutilmente */
+    background-color: var(--color-verde-borde-oscuro); 
+}
+
+
+<style>body { cursor: url('https://files.catbox.moe/xi47ci.gif'), auto; }</style>
